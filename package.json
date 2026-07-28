@@ -8,11 +8,11 @@
     "build": "vite build",
     "preview": "vite preview"
   },
- "dependencies": {
-  "@google/genai": "latest",  // ⭕ 최신 버전으로 자동 지정
-  "lucide-react": "^0.344.0",
-  "react": "^18.2.0",
-  "react-dom": "^18.2.0"
+  "dependencies": {
+    "@google/genai": "latest",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
