@@ -61,7 +61,6 @@ export default async function handler(req, res) {
 
   } catch (error) {
     console.error("Gemini API error:", error);
-    // Fallback response for demonstration if API fails or mockup
     return res.status(200).json({
       violationDetected: true,
       summary: "교차로 내 정체 상황에서 녹색 신호 시 무리하게 진입하여 신호 변경 후 교차로 내 방해 유발 확인됨.",
